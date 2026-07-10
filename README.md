@@ -19,7 +19,6 @@
 ![C](https://img.shields.io/badge/C-0d3b66?style=flat-square&logo=c&logoColor=58a6ff)
 ![R](https://img.shields.io/badge/R-0d3b66?style=flat-square&logo=r&logoColor=58a6ff)
 ![SQL](https://img.shields.io/badge/SQL-0d3b66?style=flat-square&logo=mysql&logoColor=58a6ff)
-![LaTeX](https://img.shields.io/badge/LaTeX-0d3b66?style=flat-square&logo=latex&logoColor=58a6ff)
 
 **AI / ML**
 
