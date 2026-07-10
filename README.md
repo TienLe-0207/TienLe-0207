@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/TienLe-0207/TienLe-0207/main/wave-banner.svg" alt="ocean banner" />
+<img width="100%" src="https://raw.githubusercontent.com/TienLe-0207/Profile_UI/main/wave-banner.svg" alt="ocean banner" />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=520&lines=Diving+into+AI+%26+Data+Science;Undergraduate+%40+HCMUS;Always+riding+the+next+wave+%F0%9F%8C%8A" alt="Typing SVG" />
@@ -42,7 +42,7 @@
 
 <div align="center">
 <img height="160px" src="https://github-readme-stats-fast.vercel.app/api?username=TienLe-0207&show_icons=true&theme=github_dark_blue&hide_border=true&count_private=true&include_all_commits=true&icon_color=58a6ff&title_color=58a6ff" />
-<img height="160px" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=TienLe-0207&layout=compact&theme=github_dark_blue&hide_border=true&langs_count=8&title_color=58a6ff" />
+<img height="160px" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=TienLe-0207&layout=compact&theme=github_dark_blue&hide_border=true&langs_count=8&title_color=58a6ff" />
 </div>
 
 ---
