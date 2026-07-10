@@ -140,8 +140,8 @@
 
   <!-- name + subtitle -->
   <g text-anchor="middle">
-    <text x="600" y="158" font-size="62" font-weight="800" fill="#eaf6ff" filter="url(#soft)" opacity="0.35">YOUR_NAME</text>
-    <text x="600" y="156" font-size="62" font-weight="800" fill="#eaf6ff" letter-spacing="1">YOUR_NAME</text>
+    <text x="600" y="158" font-size="62" font-weight="800" fill="#eaf6ff" filter="url(#soft)" opacity="0.35">Tien Le</text>
+    <text x="600" y="156" font-size="62" font-weight="800" fill="#eaf6ff" letter-spacing="1">Tien Le</text>
     <text x="600" y="196" font-size="20" font-weight="500" fill="#8fd0ff" letter-spacing="3">AI &amp; DATA SCIENCE · HCMUS</text>
   </g>
 </svg>
