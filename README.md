@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/TienLe-0207/TienLe-0207/main/assets/wave-banner.svg" alt="ocean banner" />
+<img width="100%" src="https://raw.githubusercontent.com/TienLe-0207/TienLe-0207/main/wave-banner.svg" alt="ocean banner" />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=520&lines=Diving+into+AI+%26+Data+Science;Undergraduate+%40+HCMUS;Always+riding+the+next+wave+%F0%9F%8C%8A" alt="Typing SVG" />
