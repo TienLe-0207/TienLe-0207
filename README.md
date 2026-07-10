@@ -41,7 +41,7 @@
 
 <div align="center">
 <img height="160px" src="https://github-readme-stats-fast.vercel.app/api?username=TienLe-0207&show_icons=true&theme=github_dark_blue&hide_border=true&count_private=true&include_all_commits=true&icon_color=58a6ff&title_color=58a6ff" />
-<img height="160px" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=TienLe-0207&layout=compact&theme=github_dark_blue&hide_border=true&langs_count=8&title_color=58a6ff" />
+<img height="160px" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=TienLe-0207&layout=compact&theme=github_dark_blue&hide_border=true&langs_count=8&title_color=58a6ff&cache_seconds=1800" />
 </div>
 
 ---
