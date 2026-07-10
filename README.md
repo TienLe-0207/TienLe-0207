@@ -41,8 +41,8 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-<img height="160px" src="https://github-readme-stats-fast.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark_blue&hide_border=true&count_private=true&include_all_commits=true&icon_color=58a6ff&title_color=58a6ff" />
-<img height="160px" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark_blue&hide_border=true&langs_count=8&title_color=58a6ff" />
+<img height="160px" src="https://github-readme-stats-fast.vercel.app/api?username=TienLe-0207&show_icons=true&theme=github_dark_blue&hide_border=true&count_private=true&include_all_commits=true&icon_color=58a6ff&title_color=58a6ff" />
+<img height="160px" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=TienLe-0207&layout=compact&theme=github_dark_blue&hide_border=true&langs_count=8&title_color=58a6ff" />
 </div>
 
 ---
@@ -50,7 +50,7 @@
 ## 📈 Activity Graph
 
 <div align="center">
-<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&hide_border=true&area=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=cfeeff&title_color=58a6ff" />
+<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=TienLe-0207&hide_border=true&area=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=cfeeff&title_color=58a6ff" />
 </div>
 
 ---
