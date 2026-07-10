@@ -1,0 +1,147 @@
+<svg viewBox="0 0 1200 320" width="1200" height="320" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', 'Fira Code', system-ui, sans-serif">
+  <defs>
+    <!-- deep sea vertical gradient -->
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#0a2a52"/>
+      <stop offset="45%" stop-color="#0b3a6b"/>
+      <stop offset="100%" stop-color="#041729"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b8fe0"/>
+      <stop offset="100%" stop-color="#1f6feb"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f6feb"/>
+      <stop offset="100%" stop-color="#124a8c"/>
+    </linearGradient>
+    <linearGradient id="wave3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d3b66"/>
+      <stop offset="100%" stop-color="#0a2a52"/>
+    </linearGradient>
+    <radialGradient id="jellyGlow" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#a5e8ff" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#58a6ff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0.05"/>
+    </radialGradient>
+    <linearGradient id="rayGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8fd0ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8fd0ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="2.2"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="4"/></filter>
+
+    <style>
+      @keyframes drift1 { from { transform: translateX(0); }    to { transform: translateX(-400px); } }
+      @keyframes drift2 { from { transform: translateX(-400px); } to { transform: translateX(0); } }
+      @keyframes drift3 { from { transform: translateX(0); }    to { transform: translateX(-600px); } }
+      @keyframes bob   { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+      @keyframes bob2  { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+      @keyframes rise  { 0% { transform: translateY(0); opacity:0; } 15%{opacity:.8;} 100% { transform: translateY(-230px); opacity:0; } }
+      @keyframes sway  { 0%,100% { transform: rotate(-3deg); } 50% { transform: rotate(3deg); } }
+      @keyframes rays  { 0%,100% { opacity:.25; } 50% { opacity:.55; } }
+      @keyframes swim  { from { transform: translateX(1300px) scaleX(-1); } to { transform: translateX(-140px) scaleX(-1); } }
+
+      .w1 { animation: drift1 7s linear infinite; }
+      .w2 { animation: drift2 11s linear infinite; }
+      .w3 { animation: drift3 16s linear infinite; }
+      .jelly-a { animation: bob 6s ease-in-out infinite; }
+      .jelly-b { animation: bob2 5s ease-in-out infinite; }
+      .tent { animation: sway 3.2s ease-in-out infinite; transform-origin: center top; }
+      .ray  { animation: rays 8s ease-in-out infinite; }
+      .fish { animation: swim 14s linear infinite; }
+      .b { animation: rise 7s ease-in infinite; }
+      .b2 { animation-delay: 1.5s; } .b3 { animation-delay: 3s; }
+      .b4 { animation-delay: .8s; }  .b5 { animation-delay: 4.2s; } .b6 { animation-delay: 2.4s; }
+    </style>
+  </defs>
+
+  <!-- water -->
+  <rect width="1200" height="320" fill="url(#sea)"/>
+
+  <!-- god rays -->
+  <g class="ray">
+    <polygon points="180,0 250,0 360,320 200,320" fill="url(#rayGrad)"/>
+    <polygon points="520,0 560,0 610,320 500,320" fill="url(#rayGrad)"/>
+    <polygon points="880,0 940,0 1010,320 840,320" fill="url(#rayGrad)"/>
+  </g>
+
+  <!-- back wave -->
+  <g class="w3">
+    <path fill="url(#wave3)" d="M0,60 q100,-34 200,0 t200,0 t200,0 t200,0 t200,0 t200,0 t200,0 t200,0 t200,0 V0 H0 Z"/>
+  </g>
+  <!-- mid wave -->
+  <g class="w2">
+    <path fill="url(#wave2)" opacity="0.9" d="M0,52 q100,26 200,0 t200,0 t200,0 t200,0 t200,0 t200,0 t200,0 t200,0 t200,0 V0 H0 Z"/>
+  </g>
+  <!-- front wave with foam -->
+  <g class="w1">
+    <path fill="url(#wave1)" d="M0,40 q100,-24 200,0 t200,0 t200,0 t200,0 t200,0 t200,0 t200,0 t200,0 t200,0 V0 H0 Z"/>
+    <path fill="none" stroke="#cfeeff" stroke-width="2" stroke-opacity="0.5"
+          d="M0,40 q100,-24 200,0 t200,0 t200,0 t200,0 t200,0 t200,0 t200,0 t200,0 t200,0"/>
+  </g>
+
+  <!-- jellyfish left -->
+  <g class="jelly-a" transform="translate(150,150)">
+    <circle cx="0" cy="0" r="46" fill="url(#jellyGlow)" filter="url(#glow)"/>
+    <path d="M-30,4 Q0,-42 30,4 Q26,16 0,16 Q-26,16 -30,4 Z" fill="#8fd0ff" opacity="0.92"/>
+    <path d="M-30,4 Q0,-42 30,4" fill="none" stroke="#e6f7ff" stroke-width="2" opacity="0.7"/>
+    <g class="tent" stroke="#a5e8ff" stroke-width="2.4" fill="none" opacity="0.8" stroke-linecap="round">
+      <path d="M-18,14 q-4,22 2,44"/>
+      <path d="M-8,16 q3,24 -1,48"/>
+      <path d="M4,16 q-3,24 2,46"/>
+      <path d="M16,14 q5,22 -2,44"/>
+    </g>
+  </g>
+
+  <!-- jellyfish right (smaller) -->
+  <g class="jelly-b" transform="translate(1040,120)">
+    <circle cx="0" cy="0" r="32" fill="url(#jellyGlow)" filter="url(#glow)"/>
+    <path d="M-22,3 Q0,-30 22,3 Q19,12 0,12 Q-19,12 -22,3 Z" fill="#8fd0ff" opacity="0.9"/>
+    <g class="tent" stroke="#a5e8ff" stroke-width="2" fill="none" opacity="0.75" stroke-linecap="round">
+      <path d="M-12,11 q-3,16 1,32"/>
+      <path d="M0,12 q2,17 -1,34"/>
+      <path d="M12,11 q3,16 -1,32"/>
+    </g>
+  </g>
+
+  <!-- swimming fish -->
+  <g class="fish" transform="translate(0,210)">
+    <g fill="#58a6ff">
+      <path d="M0,0 q22,-13 44,0 q-22,13 -44,0 Z"/>
+      <path d="M44,0 l16,-9 v18 Z"/>
+      <circle cx="12" cy="-2" r="2.4" fill="#041729"/>
+    </g>
+  </g>
+
+  <!-- bubbles -->
+  <g fill="#a5e8ff">
+    <circle class="b b1" cx="240" cy="300" r="4" opacity="0.7"/>
+    <circle class="b b2" cx="300" cy="300" r="3" opacity="0.6"/>
+    <circle class="b b3" cx="620" cy="300" r="5" opacity="0.6"/>
+    <circle class="b b4" cx="700" cy="300" r="3" opacity="0.7"/>
+    <circle class="b b5" cx="950" cy="300" r="4" opacity="0.6"/>
+    <circle class="b b6" cx="1000" cy="300" r="2.5" opacity="0.7"/>
+  </g>
+
+  <!-- seabed + shell + starfish -->
+  <path d="M0,320 h1200 V300 Q900,282 600,300 T0,300 Z" fill="#0a2138" opacity="0.9"/>
+  <!-- scallop shell -->
+  <g transform="translate(430,296)">
+    <path d="M0,0 Q-26,-30 0,-34 Q26,-30 0,0 Z" fill="#7fd0ff" opacity="0.85"/>
+    <g stroke="#0a2a52" stroke-width="1.4" opacity="0.6" fill="none">
+      <path d="M0,-2 L0,-32"/><path d="M0,-2 L-9,-28"/><path d="M0,-2 L9,-28"/>
+      <path d="M0,-2 L-16,-22"/><path d="M0,-2 L16,-22"/>
+    </g>
+  </g>
+  <!-- starfish -->
+  <g transform="translate(760,300)" fill="#58a6ff" opacity="0.85">
+    <path d="M0,-16 L4.7,-4.9 L16,-4.9 L6.5,2 L10,13 L0,6.5 L-10,13 L-6.5,2 L-16,-4.9 L-4.7,-4.9 Z"/>
+  </g>
+
+  <!-- name + subtitle -->
+  <g text-anchor="middle">
+    <text x="600" y="158" font-size="62" font-weight="800" fill="#eaf6ff" filter="url(#soft)" opacity="0.35">YOUR_NAME</text>
+    <text x="600" y="156" font-size="62" font-weight="800" fill="#eaf6ff" letter-spacing="1">YOUR_NAME</text>
+    <text x="600" y="196" font-size="20" font-weight="500" fill="#8fd0ff" letter-spacing="3">AI &amp; DATA SCIENCE · HCMUS</text>
+  </g>
+</svg>
